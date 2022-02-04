@@ -1,0 +1,2 @@
+reg add HKLM\SOFTWARE\Policies\Microsoft\WindowsStore /v RemoveWindowsStore /t reg_dword /d 0x00000000 /f
+reg add HKLM\SOFTWARE\Policies\Microsoft\WindowsStore /v RequirePrivateStoreOnly /t reg-dword /d 0x00000000 /f
